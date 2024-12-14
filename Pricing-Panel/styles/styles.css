@@ -1,0 +1,26 @@
+
+
+body{
+    background-color: #60a9ff ;
+    font-family: 'open sans', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pricing-table{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    justify-content: center;
+    border: 5px solid slateblue;
+}
+
+.pricing-img{
+    width: 100%;
+}
