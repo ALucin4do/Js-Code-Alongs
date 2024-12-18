@@ -1,4 +1,6 @@
-
+ul {
+    list-style-type: none;
+  }
 
 body{
     background-color: #60a9ff ;
@@ -11,16 +13,110 @@ body{
 }
 
 .pricing-table{
-    background-color: antiquewhite;
+    background-color: white;
     border-radius: 10px;
     padding: 15px 25px;
     width: 100%;
     max-width: 960px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    border: 5px solid slateblue;
+    
+    text-align: center;
+    text-transform: uppercase;
 }
 
+.pricing-plan{
+    border-bottom: 2px solid #e1f1ff;
+}
+
+.pricing-plan:last-child{
+    border-bottom: none;
+}
 .pricing-img{
-    width: 100%;
+    max-width: 240px;
+    margin-bottom: 25px;
+}
+
+.pricing-header{
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* border: 5px solid seagreen; */
+}
+
+.pricing-features{
+    margin: 50px 0 25px;
+    color: #016ff9;
+    padding: 0;
+}
+
+.pricing-features-item{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid #e1f1ff;
+}
+
+.pricing-features-item:last-child{
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price{
+    color: #016ff9;
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.pricing-button{
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: all 200ms ease-in-out;
+}
+
+
+.pricing-button:hover, .pricing-button:focus{
+    background-color: #e1f1ff;
+    border: 1px solid #007bff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.pricing-button.is-featured{
+    background-color: #48aaff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus{
+    background-color: #269aff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid darkblue;
+}
+
+@media (min-width: 900px){
+    .pricing-table{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .pricing-plan{
+        border-bottom: none;
+        border-right:  1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+    .pricing-plan:last-child{
+        border-right: none;
+    }
+    .pricing-features-item{
+        font-size: 0.75em;
+    }
+
 }
