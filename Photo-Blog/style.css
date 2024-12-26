@@ -5,7 +5,7 @@ body{
 }
 main{
     font-family: cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 main h2{
@@ -34,7 +34,7 @@ section{
     display: flex;
     /* background-color: coral; */
     width: 90%;
-    /* border: 5px solid seagreen; */
+    border: 5px solid seagreen;
     margin: 0 auto;
     flex-direction: row;
     justify-content: space-evenly;
@@ -49,7 +49,7 @@ img{
 
 }
 
-img:hover{
+img:hover img:focus{
     transform: translate(0, -10px);
     transition: 400ms ;
 }
@@ -60,3 +60,17 @@ footer{
 }
 
 
+
+@media (max-width: 900px){
+ 
+    section{
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    
+    img{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
