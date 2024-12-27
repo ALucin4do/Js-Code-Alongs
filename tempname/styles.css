@@ -84,12 +84,37 @@ ul, ol{
 }
 
 
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+    background-color: crimson;
+    border: 4px solid cornflowerblue;
+    display: inline-block;
+    border-radius: 14px;
+    position: relative;
+}
 
 
 
+.contact-list{
+    position: relative;
+}
 
+.contact-list h2{
+    top: 0;
+    position: sticky;
+    background-color: salmon;
+}
 
+[data-company="GCO"]{
+    background-color: aquamarine;    /* perde a disputa de pesos pro table tr */
+}
 
+[data-company="CCL"]{
+    background-color: aquamarine;
+}
 
 
 
