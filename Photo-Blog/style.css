@@ -1,3 +1,7 @@
+:root{
+    font-size: 62.5%;
+}
+
 body{
     background: rgb(59,104,107);
     background: linear-gradient(90deg, rgba(59,104,107,1) 0%, rgba(47,79,79,1) 100%);
@@ -12,17 +16,17 @@ main h2{
     display: flex;
     justify-content: center;
     font-family: "Estonia", cursive;
-    font-size: 64px ;
+    font-size: 6.4rem ;
     color: lightslategray;
 }
 
 nav{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-transform: uppercase;
     border-bottom: solid 3px darkslategray;
     width: 90%;
     margin-left: 5%;
-    padding: 0.8em 0;
+    padding: 0.8rem 0;
     font-family: 'Raleway', sans-serif, Arial, Helvetica;
     color:lightslategray;
     text-align:left ;
@@ -34,7 +38,7 @@ section{
     display: flex;
     /* background-color: coral; */
     width: 90%;
-    border: 5px solid seagreen;
+    /* border: 5px solid seagreen; */
     margin: 0 auto;
     flex-direction: row;
     justify-content: space-evenly;
@@ -57,6 +61,7 @@ img:hover img:focus{
 footer{
     text-align: center;
     color:lemonchiffon;
+    font-size: large;
 }
 
 

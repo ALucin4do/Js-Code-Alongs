@@ -2,6 +2,10 @@ ul {
     list-style-type: none;
   }
 
+:root{
+    font-size: 62.5%;
+}
+
 body{
     background-color: #60a9ff ;
     font-family: 'open sans', sans-serif;
@@ -54,7 +58,7 @@ body{
 .pricing-features-item{
     font-weight: bold;
     letter-spacing: 1px;
-    font-size: 1em;
+    font-size: 1.2rem;
     line-height: 1.5;
     padding: 15px 0;
     border-top: 1px solid #e1f1ff;
@@ -116,7 +120,7 @@ body{
         border-right: none;
     }
     .pricing-features-item{
-        font-size: 0.75em;
+        font-size: 1.2rem;
     }
 
 }
