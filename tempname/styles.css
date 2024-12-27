@@ -1,0 +1,109 @@
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    margin-left: 0;
+}
+
+table, td, th{
+    border: 1px solid black;
+
+}
+
+table tr:first-child{
+    background-color: lightblue;
+}
+
+table tr:nth-of-type(2n){
+    background-color: lightgray;
+}
+
+table{
+    font-size: 2.4rem;
+    border-collapse: collapse;    /* padrão de uma tabela é border-collapse : separate */
+
+}
+
+
+h1{
+    color: violet;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 4.8rem;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'roboto', arial, cursive;
+}
+
+h2{
+    font-size: 2.4rem;
+}
+
+.novo-em{
+    font-size: 300%;
+
+}
+
+p{
+    /* font-size: 1.8rem; */
+    text-align: justify;
+    text-indent: 90px;
+}
+
+a{
+    font-size: 2.4rem;
+    color: red;
+}
+
+a:hover, a:focus{
+    color: seagreen;
+}
+
+a:visited{
+    color: royalblue;
+}
+
+.bg{
+    height: 40vh;
+    width: 100vw;
+    background-color: #555;
+    background-image:url(https://images.unsplash.com/photo-1492138786289-d35ea832da43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ul, ol{
+    padding-left: 2.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 900px) {
+    .bg{
+        height: 60vh;
+    }
+}
