@@ -17,6 +17,10 @@ section:first-of-type{
     margin-top: 0;
 }
 
+h2{
+    margin-bottom: 30px;
+}
+
 /* NAVBAR */
 #mainNavbar{
     font-size: 2.4rem;
@@ -36,6 +40,11 @@ section:first-of-type{
     font-size: 2.4rem;
 }
 
+.navbar.scrolled{
+    background-color: cornflowerblue;
+    transition:  400ms;
+}
+
 /* Home */
 
 
@@ -48,6 +57,7 @@ section:first-of-type{
     font-weight: 400;
     font-size: 4em;
     text-transform: uppercase;
+    margin-bottom: 5px;
 }
 
 @media (max-width:1100px) {
@@ -64,6 +74,35 @@ section:first-of-type{
 }
 
 #About p{
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+/* Tickets */
+
+#Tickets h2{
+    font-size: 4em;
+    color:rgb(231, 207, 222);
+    text-transform: uppercase;
+    background-color: dodgerblue;
+    border-radius: 0.2em;
+}
+
+#Tickets p{
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+#Contact h2{
+    color: #ea1c2c;
+    font-size: 3em;
+}
+
+#Contact p{
     color: #f498b8;
     font-weight: 100;
     font-size: 1.5em;
