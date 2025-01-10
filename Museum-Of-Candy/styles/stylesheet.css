@@ -1,0 +1,27 @@
+:root{
+    font-size: 62.5%;
+}
+
+
+body{
+    background: #f5d9d5;
+    font-family: "nunito", sans-serif;
+}
+
+#mainNavbar{
+    font-size: 2.4rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand{
+    color: #ea1c2c;
+    font-size: 2.4rem;
+}
