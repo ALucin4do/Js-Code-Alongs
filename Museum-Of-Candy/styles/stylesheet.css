@@ -97,6 +97,29 @@ h2{
     line-height: 2;
 }
 
+.buy-ticket{
+    width: 50%;
+    border: 2px solid lightslategray;
+    border-radius: 0.125em;
+    margin: auto;
+    color: #f498b8;
+    background-color: cornflowerblue;
+    font-size: 2.5em;
+    padding: 0.5em 0;
+}
+
+.buy-ticket:hover .buy-ticket:focus{
+    transform: translateY(-5px);     /* TODO esse hover não funciona, verificar */
+}
+
+.buy-ticket img{
+    width: 0.75em;
+    height: 0.75em;
+    margin-left: 0.75em;
+}
+
+/* Contact */
+
 #Contact h2{
     color: #ea1c2c;
     font-size: 3em;
